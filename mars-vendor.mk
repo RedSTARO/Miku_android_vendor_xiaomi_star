@@ -683,7 +683,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     camera.xiaomi \
     com.qti.chi.override \
-    fingerprint.goodix_fod.lahaina \
     vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     libAF \
     libBlinkStub \
@@ -728,7 +727,6 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.pluginutils \
     libcvface_api \
     libfocus \
-    libgf_hal \
     libhdrdynamic \
     libhdrdynamicootf \
     libhexagon_controller \
@@ -869,4 +867,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.dtool@1.0-service \
     init.qcom.sensors \
     sensors.qti \
-    sscrpcd
+    sscrpcd \
+    # fingerprint.goodix_fod.lahaina \
+    # libgf_hal \
