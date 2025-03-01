@@ -1775,6 +1775,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libsnsapi",
     owner: "xiaomi",
+    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
@@ -1821,6 +1822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsnsdiaglog",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1872,6 +1874,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libssc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -12639,6 +12642,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorcal",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -13385,6 +13389,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.ssc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -14210,6 +14215,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "sensors.qti",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     target: {
         android_arm64: {
