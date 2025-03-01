@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mars)
+ifeq ($(TARGET_DEVICE),star)
 
 $(call add-radio-file,radio/abl.img)
 $(call add-radio-file,radio/aop.img)

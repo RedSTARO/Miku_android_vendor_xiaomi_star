@@ -1,5 +1,5 @@
 #K1A SETTING FILE
-multiCameraLogicalXMLFile=mars.xml
+multiCameraLogicalXMLFile=star.xml
 
 #log related
 logInfoMask=0x1009A
